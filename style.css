@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+*{
+    margin-bottom: 5%;
+}
+
+body {
+    background-color: #2C0948;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2331ccc2' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%232c8b69' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%232ebdb3' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231c7d67' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%232bada4' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23116f63' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23289e95' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%230f615d' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23258f87' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23145454' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23228179' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2319464a' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 15px;
+    margin-left: 33%;
+}
+
+.cell {
+    border: 3px dotted rgb(98, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    cursor: pointer;
+    font-family: sans-serif;
+    border: solid 5px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px rgb(0, 0, 0);
+    border: solid 5px rgb(255, 255, 255);
+    background-image: url(https://images.unsplash.com/photo-1549490316-686f9b5d359f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: 330px;
+    font-family: "Spicy Rice", serif;
+    text-shadow: rgb(0, 0, 0) 3px 3px 3px;
+    color: white;
+}
+
+h3{
+    margin-top: -40%;
+margin-left: 1%;
+margin-bottom: 5%;
+font-size: 30px;
+font-family: "Spicy Rice", serif;
+color: white;
+text-shadow: 3px 3px 3px black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-family: "Spicy Rice", serif;
+    color: rgb(255, 255, 255);
+}
+
+img{
+    margin-bottom: -0%;
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+    border: solid 5px white;
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    font-family: "Spicy Rice", serif;
+    color: rgb(255, 255, 255);
+    margin-left: 70%;
+}
